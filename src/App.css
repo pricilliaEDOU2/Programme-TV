@@ -1,8 +1,13 @@
 * {
   box-sizing: border-box;
 }
+a {
+  text-decoration: none;
+  color: black;
+}
 img {
   object-fit: contain;
+  border-radius: 3px;
 }
 header {
   display: flex;
@@ -25,10 +30,13 @@ h2 {
 h3 {
   margin-right: 10px;
   font-weight: bold;
+  align-self: center;
 }
 .container {
   max-width: 600px;
+  padding: 0 10px;
   margin: 30px auto;
+  font-family: Arial, Helvetica, sans-serif;
 }
 section {
   display: flex;
@@ -40,7 +48,9 @@ section {
   padding: 40px 0 20px 0;
   border-bottom: #f8f8f8 2px solid;
 }
-
+.detail img {
+  width: 80px;
+}
 .more-information > p {
   color: #909090;
   margin: 15px 0 5px 0;
@@ -48,9 +58,13 @@ section {
 .duration {
   display: flex;
   align-items: center;
-  gap: 10px;
+  gap: 8px;
   font-weight: bold;
 }
 .duration p {
-  color: red;
+  color: rgb(255, 1, 75);
+}
+footer {
+  text-align: center;
+  margin: 50px 0;
 }
